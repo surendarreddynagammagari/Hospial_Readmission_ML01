@@ -1,5 +1,14 @@
-# Hospial_Readmission_ML
-Hospial_Readmission_Using_Machine_Learning
-
-# Abstract
+# Predicting Patient Readmission Risk using Machine Learning 
+----
+## Abstract
 Reducing hospital readmissions is a critical concern for healthcare systems aiming to improve patient outcomes and lower costs. This study leverages machine learning to predict hospital readmission risk and uncover patient wellness profiles through clustering. Using the UCI Diabetes Hospital Readmission dataset, which includes over 100,000 hospital visits, we examine various clinical and administrative variables such as number of prior inpatient visits, medication changes, and primary diagnoses. The project applies supervised classification techniques—K-Nearest Neighbors (KNN), Decision Trees, Naive Bayes, Random Forests, and Neural Networks—to predict readmission. Unsupervised clustering using KMeans and Agglomerative Clustering, coupled with PCA visualization, is also used to explore patient segmentation. The aim is twofold: to develop accurate predictive models and to identify actionable subgroups of patients for care optimization. This interim report presents preprocessing, model development, and initial evaluation metrics to establish a baseline for further refinement.
+
+
+## Problem Statement 
+Unplanned hospital readmissions are costly, both financially and in terms of patient health outcomes. Identifying patients at higher risk of readmission using machine learning can enable healthcare providers to take proactive, personalized action. This project explores predictive and unsupervised learning methods to classify patients based on their likelihood of readmission and cluster them by wellness profiles for targeted care interventions. 
+
+## Issue Being Solved 
+The central question this project addresses is: Can machine learning accurately predict hospital readmission and identify patient clusters that indicate wellness profiles? The goal is to combine classification and clustering techniques to support targeted healthcare interventions and improve hospital resource planning. 
+
+## Introduction 
+Diabetes mellitus is among the top causes of hospital readmissions globally. Its chronic nature requires ongoing monitoring and often results in recurrent hospitalization, the majority of which are within 30 days of discharge. Readmission prediction is paramount to prevention and relief of health infrastructure overload. Previous studies have shown that predictive analytics through machine learning application can assist in the forecasting of hospital outcomes such as readmission, mortality, and length of stay (Rajkomar, Dean, & Kohane, 2019). Yet, constraints such as large data feature sets, poor data quality, and class imbalances limit the performance of traditional models. Predictive performance is enhanced in this research work by utilizing various machine learning models over a large diabetes dataset to classify high-risk patients before readmission.
